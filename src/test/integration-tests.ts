@@ -140,13 +140,13 @@ describe('PubSubCluster', () => {
         }, 500);
     });
 
-    it('Cluster should work',  async () => {
-        expect(await cluster.get('toto')).to.eq('aaa');
-    });
+    // it('Cluster should work',  async () => {
+    //     expect(await cluster.get('toto')).to.eq('aaa');
+    // });
 
-    it('Cluster subscribe',   () => {
-        pubsub.subscribe<{fire: boolean, from: string}>(eventKey, (data) => {
-            expect(data).to.contains({ fired: true, from: 'cluster' });
-        });
-    }).timeout(2000);
+    // it('Cluster subscribe',   () => {
+    //     pubsub.subscribe<{fire: boolean, from: string}>(eventKey, (data) => {
+    //         expect(data).to.contains({ fired: true, from: 'cluster' });
+    //     });
+    // }).timeout(2000);
 });

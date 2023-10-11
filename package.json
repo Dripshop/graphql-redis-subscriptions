@@ -1,11 +1,11 @@
 {
-  "name": "graphql-redis-subscriptions",
-  "version": "2.6.0",
+  "name": "graphql-redis-subscriptions-fix",
+  "version": "2.7.1",
   "description": "A graphql-subscriptions PubSub Engine using redis",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidyaha/graphql-redis-subscriptions.git"
+    "url": "https://github.com/Dripshop/graphql-redis-subscriptions.git"
   },
   "keywords": [
     "graphql",
@@ -13,18 +13,18 @@
     "apollo",
     "subscriptions"
   ],
-  "author": "David Yahalomi",
+  "author": "Shripal Jain",
   "contributors": [
     {
-      "name": "Michał Lytek",
-      "url": "https://github.com/19majkel94"
+      "name": "Shripal Jain",
+      "url": "https://github.com/jainshripal"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidyaha/graphql-redis-subscriptions/issues"
+    "url": "https://github.com/Dripshop/graphql-redis-subscriptions/issues"
   },
-  "homepage": "https://github.com/davidyaha/graphql-redis-subscriptions",
+  "homepage": "https://github.com/Dripshop/graphql-redis-subscriptions",
   "scripts": {
     "compile": "tsc",
     "test": "npm run coverage && npm run lint",

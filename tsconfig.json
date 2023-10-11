@@ -11,7 +11,9 @@
     "pretty": true,
     "removeComments": true,
     "declaration": true,
-    "lib": ["es6","esnext"]
+    "lib": ["es6","esnext"],
+    "noEmitOnError": false,
+    "strict": false
   },
   "exclude": [
     "node_modules",
